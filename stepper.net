@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source /projects/stepper/stepper/stepper.sch)
-    (date "Mon 07 Nov 2016 18:15:08 +07")
+    (source /projects/stepper/stepper.sch)
+    (date "Mon 07 Nov 2016 20:22:12 +07")
     (tool "Eeschema (2016-08-15 BZR 7057)-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -371,7 +371,7 @@
       (tstamp 582138AA))
     (comp (ref U4)
       (value LM2576HV)
-      (footprint I20:TO-263-5)
+      (footprint TO_SOT_Packages_THT:Pentawatt_Neutral_Staggered_Verical_TO220-5-T05D)
       (fields
         (field (name Manufacturer) "Texas Instruments"))
       (libsource (lib I20) (part LM2576HV))
@@ -761,10 +761,10 @@
         (pin (num 1) (name A) (type passive))
         (pin (num 2) (name K) (type passive)))))
   (libraries
-    (library (logical device)
-      (uri /projects/kicad-libraries/kicad-library/library/device.lib))
     (library (logical conn)
       (uri /projects/kicad-libraries/kicad-library/library/conn.lib))
+    (library (logical device)
+      (uri /projects/kicad-libraries/kicad-library/library/device.lib))
     (library (logical 74xx)
       (uri /projects/kicad-libraries/kicad-library/library/74xx.lib))
     (library (logical opto)
