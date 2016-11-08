@@ -1150,7 +1150,7 @@ U 1 1 581CAE46
 P 7200 1300
 F 0 "U4" H 7200 1687 60  0000 C CNN
 F 1 "LM2576HV" H 7200 1581 60  0000 C CNN
-F 2 "TO_SOT_Packages_THT:Pentawatt_Neutral_Staggered_Verical_TO220-5-T05D" H 7200 1300 60  0001 C CNN
+F 2 "I20:Pentawatt_Neutral_Staggered_Verical_TO220-5-T05D" H 7200 1300 60  0001 C CNN
 F 3 "" H 7200 1300 60  0001 C CNN
 F 4 "Texas Instruments" H 7200 1650 60  0001 C CNN "Manufacturer"
 	1    7200 1300
